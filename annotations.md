@@ -1,5 +1,5 @@
 @annotation:tour all_your_base
-#Getting Started
+#1. Getting Started
 ##Challenge
 To get into the rhythm, let's do a simple *hello world*.
 
@@ -19,7 +19,7 @@ And your submission will be verified for correctness. After you have a correct s
 
 
 @annotation:tour get_your_level_on
-#Get your level on
+#2. Get your level on
 ##Challenge
 Write a program that opens a LevelDB data-store using [`level`](https://npmjs.org/package/level).
 
@@ -49,7 +49,7 @@ All LevelUP methods are asynchronous. To `get` a value out of the data-store, us
 
 
 @annotation:tour basics_get
-#The basics - Get
+#3. The basics - Get
 ##Challenge
 Write a program that opens a LevelDB data-store using `level`.
 
@@ -80,7 +80,7 @@ Using `.get()` is recommended for this exercise but if you're tempted to use a R
 
 
 @annotation:tour basics_put
-#The basics - Put
+#4. The basics - Put
 ##Challenge
 Write a program that opens a LevelDB data-store using `level`.
 
@@ -110,7 +110,7 @@ To get output for debugging when running `levelmeup run program.js` you should u
 - [`db.close()`](https://github.com/rvagg/node-levelup#close)
 
 @annotation:tour basics_batch
-#The basics - Batch
+#5. The basics - Batch
 ##Challenge
 Write a program that opens a LevelDB data-store using `level`.
 
@@ -160,7 +160,7 @@ To get output for debugging when running `levelmeup run program.js` you should u
 - [`batch()` (chained form)](https://github.com/rvagg/node-levelup#batch_chained)
 
 @annotation:tour streaming
-#Streaming
+#6. Streaming
 ##Challenge
 Write a program that prints all of the key/value pairs in a LevelDB store to the console. You will be provided with the location of the store as the first argument on the command-line.
 
@@ -185,7 +185,7 @@ Also note that the 'error' event may also be emitted if there is an I/O error.
 
 
 @annotation:tour horse_js_count
-#@Horse_js Count
+#7. @Horse_js Count
 ##Challenge
 You have been provided with a rich and valuable data-set that you need to provide a simple query interface to.
 
@@ -231,7 +231,7 @@ The rest of the solution will involve incrementing a counter for each 'data' eve
 
 
 @annotation:tour horse_js_tweets
-#@horse__js Tweets
+#8. @horse__js Tweets
 ##Challenge
 In this exercise you will be provided with a LevelDB store that contains over 2,000 tweets from *@Horse_js*. Your job is to query this data set for tweets that were made on a particular date.
 
@@ -271,7 +271,7 @@ to the end of your key, this is the last ASCII charcater. So, 'start' of '2010' 
 
 
 @annotation:tour keywise
-#Keywise
+#9. Keywise
 ##Challenge
 Write a program that reads in a JSON file containing mappings of usernames to their GitHub repositories and store them in a LevelUP data-store such that they can be searched.
 
@@ -315,7 +315,7 @@ To get output for debugging when running `levelmeup run program.js` you should u
 
 
 @annotation:tour short_scrabble_words
-#Short Scrabble Words
+#10. Short Scrabble Words
 ##Challenge
 Write a module that stores valid 2, 3 and 4 character Scrabble words and is able to retrieve them according to basic prefix-queries.
 
@@ -360,7 +360,7 @@ Your `init()` function should translate words into appropriate keys, and your `q
 
 
 @annotation:tour sublevel
-#Sublevel
+#11. Sublevel
 ##Challenge
 Sometimes you just need a clean namespace to fill up with junk without worrying about conflicting with existing keys in use.
 
@@ -389,7 +389,7 @@ exercise.
 - [`db.sublevel()`](https://npmjs.org/package/level-sublevel)
 
 @annotation:tour multilevel
-#Multilevel
+#12. Multilevel
 ##Challenge
 Write a program that uses [`multilevel`](https://npmjs.org/package/multilevel) to fetch a value from a server running on your computer.
 
