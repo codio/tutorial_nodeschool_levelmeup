@@ -16,8 +16,8 @@ If you prefer a video rather than reading the instructions below, there is a vid
 
 You'll now need to install the Nodeschool tutorial (each one is an npm package) onto your project's Box. There are two ways to do this ...
 
-- Hands Dirty: open up a Terminal with from the 'Tools->Terminal' menu, then enter `npm install -g learnyounode`.
-- Lazy Way: click on the "Install <tut-name>" menu item. Once installed, you can close that tab.
+- Hands Dirty: open up a Terminal with from the 'Tools->Terminal' menu, then enter `npm install -g levelmeup`.
+- Lazy Way: click on the "Install Level Me Up Scotty!" menu item. Once installed, you can close that tab.
 
 
 #2 Writing your code
@@ -42,9 +42,9 @@ Each lesson requires different arguments so when you switch lessons, you should 
 ![instructions](stuff/menu.png)
 
 ###2. Shell out to the Terminal
-You can open a Terminal window at any time by selecting the 'Tools->Terminal' menu item. Your terminal defaults to the `~/workspace` folder, which equates to the root of your Codio code project. If you are writing your code in the lesson folder (for example `02_baby_steps`) then you will need to `cd` into that folder, so something like this
+You can open a Terminal window at any time by selecting the 'Tools->Terminal' menu item. Your terminal defaults to the `~/workspace` folder, which equates to the root of your Codio code project. If you are writing your code in the lesson folder (for example `02_get_your_level_on`) then you will need to `cd` into that folder, so something like this
 
-    cd 02_baby_steps
+    cd 02_get_your_level_on
     node baby_steps.js 1 2 3
 
 #Running your Code via the Tutorial system
