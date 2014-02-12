@@ -10,19 +10,19 @@ fi
 if [ $2 == "all_your_base" ]; then 
     STR="ALL YOUR BASE" 
 elif [ $2 == "get_your_level_on" ]; then 
-    STR=" GET YOUR LEVEL ON" 
+    STR=" Get Your Level On!" 
 elif [ $2 == "basics_get" ]; then 
-    STR="basics get" 
+    STR="Basics: GET" 
 elif [ $2 == "basics_put" ]; then 
-    STR=" basics put" 
+    STR=" Basics: PUT" 
 elif [ $2 == "basics_batch" ]; then 
-    STR="Basics Batch" 
+    STR="Basics: BATCH" 
 elif [ $2 == "streaming" ]; then 
-    STR="STREAMING" 
+    STR="Streaming" 
 elif [ $2 == "horse_js_count" ]; then 
-    STR="Horse JS Count" 
+    STR="@horse js Count" 
 elif [ $2 == "horse_js_tweets" ]; then 
-    STR="Horse js Tweets" 
+    STR="@horse js Tweets" 
 elif [ $2 == "keywise" ]; then 
     STR="Keywise" 
 elif [ $2 == "short_scrabble_words" ]; then 
