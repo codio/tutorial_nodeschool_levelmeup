@@ -20,9 +20,9 @@ elif [ $2 == "basics_batch" ]; then
 elif [ $2 == "streaming" ]; then 
     STR="Streaming" 
 elif [ $2 == "horse_js_count" ]; then 
-    STR="@horse js Count" 
+    STR="@horse_js Count" 
 elif [ $2 == "horse_js_tweets" ]; then 
-    STR="@horse js Tweets" 
+    STR="@horse_js Tweets" 
 elif [ $2 == "keywise" ]; then 
     STR="Keywise" 
 elif [ $2 == "short_scrabble_words" ]; then 
