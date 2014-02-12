@@ -185,7 +185,7 @@ Also note that the 'error' event may also be emitted if there is an I/O error.
 
 
 @annotation:tour horse_js_count
-#7. Horse_js Count
+#7. @horse js Count
 ##Challenge
 You have been provided with a rich and valuable data-set that you need to provide a simple query interface to.
 
@@ -231,7 +231,7 @@ The rest of the solution will involve incrementing a counter for each 'data' eve
 
 
 @annotation:tour horse_js_tweets
-#8. Horse__js Tweets
+#8. @horse js Tweets
 ##Challenge
 In this exercise you will be provided with a LevelDB store that contains over 2,000 tweets from *@Horse_js*. Your job is to query this data set for tweets that were made on a particular date.
 
