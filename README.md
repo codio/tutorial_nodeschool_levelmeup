@@ -5,7 +5,7 @@
 *All content is written and produced by [http://nodeschool.io](http://nodeschool.io). Please see the credits at the bottom of this page and if you have learnt a lot from these tutorials, please make a donation (also at the bottom).*
 
 #Video
-If you prefer a video rather than reading the instructions below, there is a video that runs through the Codio + Nodeschool.io system (yes, it's a tutorial on how to use the tutorial) : TODO LINK
+If you prefer a video rather than reading the instructions below, there is a video that runs through the Codio + Nodeschool.io system (yes, it's a tutorial on how to use the tutorial) : [https://vimeo.com/86100550](https://vimeo.com/86100550)
 
 #Installation
 1. Create an account with http://codio.com (don't be frightened, it's free for all public projects).
@@ -45,7 +45,7 @@ Each lesson requires different arguments so when you switch lessons, you should 
 You can open a Terminal window at any time by selecting the 'Tools->Terminal' menu item. Your terminal defaults to the `~/workspace` folder, which equates to the root of your Codio code project. If you are writing your code in the lesson folder (for example `02_get_your_level_on`) then you will need to `cd` into that folder, so something like this
 
     cd 02_get_your_level_on
-    node baby_steps.js 1 2 3
+    node get_your_level_on.js 1 2 3
 
 #Running your Code via the Tutorial system
 When you've got your code to the point where you think it is ready for the Tutorial system to check it, you should select the 'Run Lesson' item from the 'Run' menu. The tutorial system will automatically supply any required arguments to your project as required by the current lesson. You can see the 'Run Lesson' item in the above menu screenshot.
