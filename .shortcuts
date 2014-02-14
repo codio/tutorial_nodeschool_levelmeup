@@ -1,5 +1,0 @@
-{
-  "Run": "levelmeup select {{current_file}} && levelmeup run {{current_file}}",
-  "Verify": "levelmeup select {{current_file}} && levelmeup verify {{current_file}},
-  "default": "Run"
-}
